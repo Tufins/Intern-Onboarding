@@ -26,43 +26,39 @@
 ## 3. My Learning Style
 
 ### What helped me learn today?
+During Day 1, I worked on understanding the LearnLanka system and documenting its requirements. I learned how to identify the system's main features and user needs and organise them into a requirements document.
 
-[Write what helped you understand the concepts, such as examples,
-drawing diagrams, writing requirements, or explaining ideas in simple words.]
+I also worked with user stories to describe what different users need from the system and why those features are important. The context diagram helped me understand the system boundary, the external users, and how they interact with the system.
+
+Finally, I learned about maintaining an ambiguity log to record unclear requirements, assumptions, and questions that need clarification. This helped me understand why we should confirm requirements rather than make assumptions before starting development.
 
 ### What was difficult?
 
-[Write the concept or task that confused you most.]
+The concept that confused me most was identifying ambiguity in requirements and distinguishing between confirmed requirements and assumptions. I learned that even if a requirement seems clear at first, it may have multiple interpretations. Understanding how to identify these uncertainties, document them in an ambiguity log, and ask the right questions to clarify them was a valuable learning experience.
 
 ### What will I try next?
 
-[Write one practical action you will take to understand it better.]
+I will practise reviewing sample requirements, identifying unclear statements, and recording them in an ambiguity log. I will also practise asking specific questions to clarify uncertainties before making assumptions, so I can understand requirements more accurately.
 
 ## 4. Daily Log
 
-### Day 1 — Systems Thinking and Requirements
+### Day 1 - Systems Thinking and Requirements
 
-**What I worked on:**
+## What I worked on:
+I worked on understanding the LearnLanka system and its requirements. I explored how to organise requirements in a requirements document, describe user needs through user stories, represent the system and its external interactions using a context diagram, and record unclear requirements in an ambiguity log.
 
-[Describe the requirements document, user stories, context diagram,
-and ambiguity log you actually worked on.]
+## What I learned:
+I learned the difference between functional requirements, which describe what a system should do, and non-functional requirements, which describe qualities such as security, reliability, and performance. I also learned the importance of identifying unclear requirements and clarifying them before starting development.
 
-**What I learned:**
+## What I found difficult:
+I found it challenging to identify ambiguous requirements and distinguish between confirmed information and assumptions. Some requirements may seem clear initially but can have different interpretations.
 
-[Explain one or two concepts in your own words.]
+## How I handled it:
+I tried to break the requirements into smaller parts and think about what information was missing. I learned that recording uncertainties in an ambiguity log and asking specific questions can help prevent misunderstandings. I would like to practise this further using real-world examples.
 
-**What I found difficult:**
-
-[Describe a real challenge you faced.]
-
-**How I handled it:**
-
-[Explain what you tried, what helped, or what you still need to ask.]
-
-**Questions I still have:**
-
-1. [Your first question]
-2. [Your second question]
+## Questions I still have:
+1. How do we prioritise and resolve ambiguities when there are multiple unanswered questions about a requirement?
+2. How do we ensure that our user stories and acceptance criteria are clear enough for developers and testers to implement and validate correctly?
 
 ## 5. Feynman Check
 
@@ -81,9 +77,9 @@ features and the system as a whole.
 
 ### My own example
 
-[Write one new functional requirement and one non-functional requirement
-in your own words.]
+Functional requirement: The LearnLanka system should allow students to search for tutors by subject and view their available tutoring sessions.
 
+Non-functional requirement: The LearnLanka system should protect students’ personal information by ensuring that only authorised users can access it.
 ## 6. Day 5 Review
 
 Complete this section on Day 5.
