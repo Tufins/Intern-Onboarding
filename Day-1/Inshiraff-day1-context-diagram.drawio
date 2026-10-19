@@ -1,0 +1,99 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Context Diagram" id="ctx">
+    <mxGraphModel dx="1776" dy="909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="1010" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;fontStyle=1;arcSize=4;labelBackgroundColor=none;" value="LearnLanka Platform" vertex="1">
+          <mxGeometry height="640" width="300" x="600" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1;labelBackgroundColor=none;" value="Student" vertex="1">
+          <mxGeometry height="80" width="170" x="40" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1;labelBackgroundColor=none;" value="Tutor" vertex="1">
+          <mxGeometry height="80" width="170" x="40" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1;labelBackgroundColor=none;" value="Operations Admin" vertex="1">
+          <mxGeometry height="80" width="170" x="40" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="n6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 4;fontSize=15;fontStyle=1;labelBackgroundColor=none;" value="PayHere" vertex="1">
+          <mxGeometry height="80" width="170" x="1290" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="n7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 4;fontSize=15;fontStyle=1;labelBackgroundColor=none;" value="Daily.co or 100ms" vertex="1">
+          <mxGeometry height="80" width="170" x="1290" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="n8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 4;fontSize=15;fontStyle=1;labelBackgroundColor=none;" value="Sampath Vishwa" vertex="1">
+          <mxGeometry height="80" width="170" x="1290" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="n9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 4;fontSize=15;fontStyle=1;labelBackgroundColor=none;" value="SMS Gateway" vertex="1">
+          <mxGeometry height="80" width="170" x="1290" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="n3" style="endArrow=block;endFill=1;html=1;strokeWidth=2;fontSize=12;labelBackgroundColor=none;verticalAlign=bottom;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.09375;entryDx=0;entryDy=0;fontColor=default;" target="n2" value="Searches and requests bookings&lt;br&gt;- HTTPS">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="n4" style="endArrow=block;endFill=1;html=1;strokeWidth=2;fontSize=12;labelBackgroundColor=none;verticalAlign=bottom;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.484375;entryDx=0;entryDy=0;fontColor=default;" target="n2" value="Publishes slots and responds&lt;br&gt;to bookings — HTTPS">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="n5" style="endArrow=block;endFill=1;html=1;strokeWidth=2;fontSize=12;labelBackgroundColor=none;verticalAlign=bottom;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.875;entryDx=0;entryDy=0;fontColor=default;" target="n2" value="Manages tutors and monitors payouts&lt;br&gt;— HTTPS (draft)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="n2" style="endArrow=block;endFill=1;html=1;strokeWidth=2;fontSize=12;labelBackgroundColor=none;verticalAlign=bottom;exitX=1;exitY=0.09375;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=default;" target="n6" value="Initiates payment&lt;br&gt;— payment gateway integration">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e14" edge="1" parent="1" source="n2" style="endArrow=block;endFill=1;html=1;strokeWidth=2;fontSize=12;labelBackgroundColor=none;verticalAlign=bottom;exitX=1;exitY=0.375;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=default;" target="n7" value="Creates or joins video sessions&lt;br&gt;— provider API">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e15" edge="1" parent="1" source="n2" style="endArrow=block;endFill=1;html=1;strokeWidth=2;fontSize=12;labelBackgroundColor=none;verticalAlign=bottom;dashed=1;exitX=1;exitY=0.65625;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=default;" target="n8" value="Initiates weekly payouts&lt;br&gt;— integration method TBD">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e16" edge="1" parent="1" source="n2" style="endArrow=block;endFill=1;html=1;strokeWidth=2;fontSize=12;labelBackgroundColor=none;verticalAlign=bottom;dashed=1;exitX=1;exitY=0.9375;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=default;" target="n9" value="Sends OTP (if required)&lt;br&gt;— channel TBD">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lg" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=8;fontStyle=1;fontSize=14;labelBackgroundColor=none;" value="Legend" vertex="1">
+          <mxGeometry height="160" width="1420" x="40" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="l17" parent="1" style="rounded=1;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="36" width="70" x="60" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="l18" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;labelBackgroundColor=none;" value="LearnLanka Platform (system in scope)" vertex="1">
+          <mxGeometry height="36" width="280" x="140" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="l19" parent="1" style="rounded=0;dashed=1;dashPattern=8 4;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="36" width="70" x="60" y="915" as="geometry" />
+        </mxCell>
+        <mxCell id="l20" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;labelBackgroundColor=none;" value="External system (outside our control)" vertex="1">
+          <mxGeometry height="36" width="280" x="140" y="915" as="geometry" />
+        </mxCell>
+        <mxCell id="l21" parent="1" style="rounded=1;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="36" width="70" x="480" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="l22" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;labelBackgroundColor=none;" value="Person / user role" vertex="1">
+          <mxGeometry height="36" width="280" x="560" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="l23" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;strokeWidth=2;labelBackgroundColor=none;fontColor=default;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="933" as="sourcePoint" />
+            <mxPoint x="550" y="933" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l24" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;labelBackgroundColor=none;" value="Solid arrow: data flow; points from initiator to receiver; label = action — channel/protocol" vertex="1">
+          <mxGeometry height="36" width="300" x="560" y="915" as="geometry" />
+        </mxCell>
+        <mxCell id="l25" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;strokeWidth=2;dashed=1;labelBackgroundColor=none;fontColor=default;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="878" as="sourcePoint" />
+            <mxPoint x="970" y="878" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l26" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;labelBackgroundColor=none;" value="Dashed arrow: draft / unconfirmed protocol or requirement (TBD)" vertex="1">
+          <mxGeometry height="36" width="300" x="980" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="ttl" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=22;fontStyle=1;labelBackgroundColor=none;" value="LearnLanka - Context Diagram (Day 1, draft)" vertex="1">
+          <mxGeometry height="40" width="700" x="400" y="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
